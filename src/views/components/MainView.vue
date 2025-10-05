@@ -174,19 +174,19 @@
       <!-- </el-col>
     </el-row> --> -->
 
-    <!-- 全局 Tooltip 容器 -->
-    <div
-        v-if="tooltipVisible && (currentTooltip === 'qq' || currentTooltip === 'wechat' || currentTooltip === 'zanshang')"
-        class="global-tooltip-container"
-        :style="tooltipStyle"
-    >
-      <img :src="getTooltipImage(currentTooltip)" alt="Tooltip Image" class="tooltip-image" />
-    </div>
+<!--    &lt;!&ndash; 全局 Tooltip 容器 &ndash;&gt;-->
+<!--    <div-->
+<!--        v-if="tooltipVisible && (currentTooltip === 'qq' || currentTooltip === 'wechat' || currentTooltip === 'zanshang')"-->
+<!--        class="global-tooltip-container"-->
+<!--        :style="tooltipStyle"-->
+<!--    >-->
+<!--      <img :src="getTooltipImage(currentTooltip)" alt="Tooltip Image" class="tooltip-image" />-->
+<!--    </div>-->
 
-    <!-- 弹窗组件 -->
-    <el-dialog v-model="dialogVisible" width="800px">
-      <component :is="currentComponent" />
-    </el-dialog>
+<!--    &lt;!&ndash; 弹窗组件 &ndash;&gt;-->
+<!--    <el-dialog v-model="dialogVisible" width="800px">-->
+<!--      <component :is="currentComponent" />-->
+<!--    </el-dialog>-->
   </div>
 </template>
 
