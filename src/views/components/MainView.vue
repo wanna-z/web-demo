@@ -385,63 +385,63 @@ const fetchBaseInfo = () => {
 
 // 定义左侧布局配置
 const leftSections = ref([
-  {
-    type: 'data-stats',
-    stats: [
-      { label: '本站已运行时间', value: '0天0小时0分钟0秒', unit: '', realTime: true },
-      { label: '总访问量', value: 0, unit: '次' },
-      { label: '当前在线', value: 0, unit: '人' },
-      { label: '文章总数', value: 0, unit: '篇' },
-    ]
-  },
-  {
-    title: '开发list',
-    description: '网站开发任务详情，来提两句儿？',
-    image: 'mainview/1.png', // 可以在这里添加图片路径
-    type: 'task',
-    component: markRaw(WebsiteTaskCard),
-  },
-  {
-    title: '碎语闲言',
-    description: '道友且慢行，老朽奉茶🍵一篇，若有所得，便是缘分',
-    image: 'mainview/2.png',
-    type: 'blog',
-    tags: ['博客', '技术交流', 'Vue3', 'SpringBoot', 'Redis', 'mysql' , 'RabbiMQ', '部署'],
-    component: markRaw(BlogListView), // 添加详情组件
-  },
+  // {
+  //   type: 'data-stats',
+  //   stats: [
+  //     { label: '本站已运行时间', value: '0天0小时0分钟0秒', unit: '', realTime: true },
+  //     { label: '总访问量', value: 0, unit: '次' },
+  //     { label: '当前在线', value: 0, unit: '人' },
+  //     { label: '文章总数', value: 0, unit: '篇' },
+  //   ]
+  // },
+  // {
+  //   title: '开发list',
+  //   description: '网站开发任务详情，来提两句儿？',
+  //   image: 'mainview/1.png', // 可以在这里添加图片路径
+  //   type: 'task',
+  //   component: markRaw(WebsiteTaskCard),
+  // },
+  // {
+  //   title: '碎语闲言',
+  //   description: '道友且慢行，老朽奉茶🍵一篇，若有所得，便是缘分',
+  //   image: 'mainview/2.png',
+  //   type: 'blog',
+  //   tags: ['博客', '技术交流', 'Vue3', 'SpringBoot', 'Redis', 'mysql' , 'RabbiMQ', '部署'],
+  //   component: markRaw(BlogListView), // 添加详情组件
+  // },
 ]);
 
 // 定义右侧布局配置
 const rightSections = ref([
-  {
-    title: '哇哇哇哇哇',
-    description: '少年，我这有本开发大佬独家秘籍，点击下方 👇 👇 ',
-    type: 'blog-stats',
-    icons: [
-      { name: 'gitee', url: 'mainview/gitee.png' },
-      { name: 'github', url: 'mainview/github.png' },
-      { name: 'qq', url: 'mainview/qq.png' },
-      { name: 'wechat', url: 'mainview/wechat.png' }
-    ]
-  },
-  {
-    title: 'Notification',
-    description: '版本开发介绍',
-    type: 'notification',
-    component: markRaw(Notification),
-  },
-  {
-    title: '鸣谢',
-    description: '感谢所有为本项目提供支持的开源项目和工具\n与\n所有提供开源项目大佬代码及页面参考',
-    type: 'thanks',
-    component: markRaw(Acknowledgements),
-  },
-  {
-    title: '充电',
-    description: '如果您对网站感兴趣不妨续租一天哦',
-    type: 'zanshang',
-    component: markRaw(Donation),
-  },
+  // {
+  //   title: '哇哇哇哇哇',
+  //   description: '少年，我这有本开发大佬独家秘籍，点击下方 👇 👇 ',
+  //   type: 'blog-stats',
+  //   icons: [
+  //     { name: 'gitee', url: 'mainview/gitee.png' },
+  //     { name: 'github', url: 'mainview/github.png' },
+  //     { name: 'qq', url: 'mainview/qq.png' },
+  //     { name: 'wechat', url: 'mainview/wechat.png' }
+  //   ]
+  // },
+  // {
+  //   title: 'Notification',
+  //   description: '版本开发介绍',
+  //   type: 'notification',
+  //   component: markRaw(Notification),
+  // },
+  // {
+  //   title: '鸣谢',
+  //   description: '感谢所有为本项目提供支持的开源项目和工具\n与\n所有提供开源项目大佬代码及页面参考',
+  //   type: 'thanks',
+  //   component: markRaw(Acknowledgements),
+  // },
+  // {
+  //   title: '充电',
+  //   description: '如果您对网站感兴趣不妨续租一天哦',
+  //   type: 'zanshang',
+  //   component: markRaw(Donation),
+  // },
 ]);
 
 // 弹窗相关
