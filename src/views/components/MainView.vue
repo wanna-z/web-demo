@@ -1,17 +1,17 @@
 <template>
   <div class="main-view">
-    <!-- <el-row :gutter="20">
-    <!--       左侧内容 -->
-      <!-- <el-col :xs="24" :sm="24" :md="16" :lg="16" :xl="16"> -->
-        <!-- <div class="left-content">
-          <div
-              v-for="(section, index) in leftSections"
-              :key="index"
-              class="section-container"
-              :class="`${section.type}-section`"
-              @click="openCardDialog(section)"
-              style="cursor: pointer; height: 200px;"
-          >
+<!--    &lt;!&ndash; <el-row :gutter="20">-->
+<!--    &lt;!&ndash;       左侧内容 &ndash;&gt;-->
+<!--      &lt;!&ndash; <el-col :xs="24" :sm="24" :md="16" :lg="16" :xl="16"> &ndash;&gt;-->
+<!--        &lt;!&ndash; <div class="left-content">-->
+<!--          <div-->
+<!--              v-for="(section, index) in leftSections"-->
+<!--              :key="index"-->
+<!--              class="section-container"-->
+<!--              :class="`${section.type}-section`"-->
+<!--              @click="openCardDialog(section)"-->
+<!--              style="cursor: pointer; height: 200px;"-->
+<!--          >-->
             <!-- 索引为 0, 2, 4 的卡片图片在左侧 -->
 <!--            <div v-if="index % 2 === 0 && section.image" class="card-content">-->
 <!--              <div class="content-wrapper left-image">-->
